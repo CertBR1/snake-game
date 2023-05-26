@@ -45,7 +45,15 @@ public class Snake {
         return false;
     }
     
-    public void setSnakePartList(){
-        
+    public void setSnakePartList(LinkedList<Cell> snakePartList){
+        this.snakeParkList = snakePartList;
+    }
+    
+    public Cell getHead(){
+        return head;
+    }
+    
+    public void setHead(Cell head){
+        this.head = head;
     }
 }
