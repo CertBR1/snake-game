@@ -60,7 +60,7 @@ public class Game {
 
     private Cell getNextCell(Cell currentPosition)
     {
-        System.out.println("Going to find next cell");
+        System.out.println("nova possiçao");
         int row = currentPosition.getRow();
         int col = currentPosition.getCol();
  
